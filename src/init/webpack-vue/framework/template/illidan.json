@@ -1,0 +1,8 @@
+{
+  "appDir": "/Users/sheweichun/test",
+  "appName": "swc",
+  "toolName": "webpack",
+  "mvvmName": "react",
+  "router": true,
+  "split": true
+}

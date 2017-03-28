@@ -1,0 +1,29 @@
+@headerHeight:50px;
+.layout-container{
+  width: 100%;
+  height: 100%;
+  padding-top: @headerHeight;
+  header{
+	position: fixed;
+	background: black;
+	width: 100%;
+	height: @headerHeight;
+	line-height: @headerHeight;
+	color: white;
+	padding-left: 20px;
+	font-size: 20px;
+	top: 0px;
+  }
+  .content{
+	// height: 1000px;
+	padding-top: 20px;
+	@asidewidth:200px;
+	aside{
+		float: left;
+		width: @asidewidth;
+	}
+	.content-body{
+		padding-left: @asidewidth + 10px;
+	}
+  }
+}
